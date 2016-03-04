@@ -9,10 +9,10 @@ for ($x =0; $x<30; $x++){
 $key = rand_char(8);
 $SQL_STATEMENT = "INSERT INTO accesskey (token) VALUES ('$key')";
 $RESULT = $connection->query($SQL_STATEMENT);
-if($RESULT){
-   echo $key;
-	echo "<br/>";
-  }
+// if($RESULT){
+//    echo $key;
+// 	echo "<br/>";
+//   }
 
 
 }
